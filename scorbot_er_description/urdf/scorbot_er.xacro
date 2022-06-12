@@ -76,11 +76,6 @@
 
   <!-- BEGIN - Robot description -->
 
-  <!--joint name="world_arm" type="fixed">
-    <parent link="world"/>
-    <child link="${link_00_name}"/>
-  </joint-->
-
   <joint name="support_base_link" type="fixed">
     <parent link="support"/>
     <child link="${link_00_name}"/>
