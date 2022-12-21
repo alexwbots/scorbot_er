@@ -13,7 +13,7 @@
   <!-- Arm fixed to world frame  -->
   <joint name="world_support" type="fixed">
     <parent link="world"/>
-    <child link="support"/>+
+    <child link="support"/>
     <origin rpy="0 0 0" xyz="0 0 0"/>
   </joint>
 
