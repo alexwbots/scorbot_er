@@ -5,6 +5,6 @@
   <include file="$(find scorbot_er_description)/launch/spawn.launch"/>
 
   <!-- Launch control, rqt_publisher, robot state publisher, joint state publisher and rviz -->
-  <include file="$(find scorbot_er_description)/launch/control.launch"/>
+  <include file="$(find scorbot_er_description)/launch/controllers.launch"/>
 
 </launch>
